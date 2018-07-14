@@ -14,6 +14,15 @@ body {
   background-color: rgb(71,178,44,.1)
 }
 
+#myphoto {
+  width: 250px;
+  height: auto;
+  border-radius: 90%;
+  box-shadow: .1rem grey;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
 #name {
   color: #fff;
 }
@@ -47,7 +56,6 @@ h5:hover {
 }
 
 
-
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
   color: #fff;
   border-color: #fff;
@@ -62,6 +70,11 @@ section {
 }
 .section-heading {
   margin-top: 0;
+}
+
+.text_skills {
+  font-size: .75rem;
+  margin-top: 10px;
 }
 
 .img-thumbnail {
