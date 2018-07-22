@@ -10,6 +10,22 @@ body {
   background-color: rgb(74,69,225);
 }
 
+header  {
+    min-height: 550px;
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(img/backdrop.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    text-shadow: -2px 1px 12px lightgrey;
+    color: white;
+}
+
+
 #about {
   background-color: rgb(71,178,44,.1)
 }
@@ -17,7 +33,7 @@ body {
 #myphoto {
   width: 250px;
   height: auto;
-  border-radius: 90%;
+  border-radius: 30%;
   box-shadow: .1rem grey;
   display: inline-block;
   margin-bottom: 10px;
@@ -76,7 +92,7 @@ section {
   font-size: .75rem;
   margin-top: 10px;
 }
-
+/* 
 .img-thumbnail {
   width: 300px;
   border: 0px;
@@ -85,11 +101,56 @@ section {
   padding: 0px;
   border: 1px solid rgb(71,178,44);
   border-radius: 0px;
+} */
+
+.project_images {
+  height: 200px;
+  border: 0px;
+  opacity: .7;
+  /* margin: 10px; */
+  border-bottom: 1px solid rgb(71,178,44);
+  border-radius: 0px;
 }
 
+.card-body {
+  padding: .75rem;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-title:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.project_images:hover {
+  height: 200px;
+  border: 0px;
+  opacity: 1;
+  /* margin: 10px; */
+  border-bottom: 1px solid rgb(71,178,44);
+  border-radius: 0px;
+}
+
+.card {
+  margin: 15px;
+  border: 1px solid rgb(71,178,44);
+  border-radius: 0px;
+}
+
+.external_link:hover {
+  background-color: rgb(71,178,44)
+}
+/* 
 .img-thumbnail:hover {
   opacity: 1.0;
-}
+} */
 
 .education {
   padding-left: 0px;
